@@ -56,7 +56,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Live Demo
 
-* You can view the live demo on my triangle tracker  https://saa-lem.github.io/Quotes/
+* You can view the live demo on my triangle tracker  https://quotes-app2020.netlify.com
+
 
 
 ## License information
