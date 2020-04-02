@@ -7,7 +7,6 @@
                 <textarea class="form-control" name="quo" id="quo" rows="4" required #quo='ngModel' [(ngModel)]="newQuote.name"></textarea>
 
                 <div [hidden]="quo.valid || quo.pristine" class="alert alert-danger">
-                    <p>Your Quote:</p>
                 </div>
             </div>
             <div class="form-group">
@@ -15,7 +14,6 @@
                 <input type="text" name="author" id="author" class="form-control" required #author="ngModel" [(ngModel)]="newQuote.description">
 
                 <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
-                    <p>Author:</p>
                 </div>
             </div>
 
@@ -24,7 +22,6 @@
                 <input type="text" name="name" id="name" class="form-control" required #name='ngModel' [(ngModel)]="newQuote.submittedBy">
 
                 <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                    <p>Name:</p>
                 </div>
 
             </div>
@@ -34,7 +31,6 @@
                 <input type="date" name="date" id="date" class="form-control" required #date='ngModel' [(ngModel)]="newQuote.Date">
 
                 <div [hidden]="date.valid || date.pristine" class="alert alert-danger">
-                    <p>Date:</p>
                 </div>
             </div>
             <button type="submit" class="btn btn-dark">Create Quote</button>
